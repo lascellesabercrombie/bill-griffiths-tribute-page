@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body{
+  background-color:#e6e6ff;
+}
+.black-border {
+  border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+}
+.small-image {
+max-width: 25%;
+height: auto;
+}
+
+.green-border {
+   border-color: #1FC20C;
+   border-width: 5px;
+   border-style: solid;
+  border-radius: 100px;
+  margin: 20px 80px 20px 80px;
+}
+.yellow-box {
+  font-family: Arial; 
+  font-size: 1em;
+  background-color: yellow;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  padding: 20px 100px 20px 100px;
+  margin: 20px 100px 20px 100px;
+}
+@media (max-width: 800px) {
+
+  .yellow-box {
+  font-size: 0.5em;
+  padding: 5px;
+  margin: 5px;
+  }
+  .small-image {
+    max-width: 80%;
+    height: auto;
+  }
+  .green-border {
+    margin: 0px;
+  }
+}
+
+h1 {
+  font-family: "Patua One", Arial;
+  color: blue;
+  text-align: center;
+}
+h2 {
+  font-family: "Patua One", monospace;
+  font-size: 40px;
+  color: red;
+  text-align: center
+}
